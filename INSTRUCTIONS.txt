@@ -1,0 +1,31 @@
+Instructions/Release Information: 
+Version 1.1-RELEASE
++ Added an export all data button
++ Added a top menu bar.
+~ Fixed problems when the KE2 controller doesn't have an API.
+
+Version 1.0.1-RELEASE
++ Added printing of the debug logs during the script run to help diagnose message at New Holland Transport.
+
+Version 1.0-RELEASE
+The first fully working version of the program.
+System requirements:
+•	Excel 2010-2016 (May work on newer versions)
+•	Windows 7,8,8.1,10
+•	Java 8 or higher
+
+Usage:
+Fill the in IP Formula field with one of the following options, then click on the Excel button.
+•	Single IP (1 arg): 192.198.0.1
+•	Consecutive IP (3 args): 192.168.0.X 1 200
+•	Multiple IP (x args): 192.168.0.200 192.168.0.100 192.168.0.201
+
+Single IP will download a single KE2s data from the provided IP.
+Consecutive IP will download from multiple consecutive KE2s. The X variable will be replaced starting with the second argument, then adding one to that number until the third argument is reached.
+Multiple IP will download from multiple KE2s.
+
+The program will download the files to your Downloads folder by default.
+
+Send any questions to Justin Brubaker. justinb@rbrubaker.com
+KE2DataExporter is copyright 2019 Rufus Brubaker Refrigeration.
+
