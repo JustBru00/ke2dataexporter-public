@@ -1,7 +1,7 @@
 Instructions/Release Information: 
 Version 1.2-RELEASE
 + Added command line arguments.
-+ Added command line interface. (See instructions at: )
++ Added command line interface. (See instructions at: https://github.com/JustBru00/ke2dataexporter-public/wiki/Command-Line-Usage)
 
 Version 1.1-RELEASE
 + Added an export all data button
