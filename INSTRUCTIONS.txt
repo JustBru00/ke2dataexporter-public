@@ -1,4 +1,8 @@
 Instructions/Release Information: 
+Version 1.2-RELEASE
++ Added command line arguments.
++ Added command line interface. (See instructions at: )
+
 Version 1.1-RELEASE
 + Added an export all data button
 + Added a top menu bar.
