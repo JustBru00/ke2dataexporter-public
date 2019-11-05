@@ -1,4 +1,8 @@
 Instructions/Release Information: 
+Version 1.2.1-RELEASE
++ Added --debug() command line argument.
+~ Fixed issues when controllers cannot be reached.
+
 Version 1.2-RELEASE
 + Added command line arguments.
 + Added command line interface. (See instructions at: https://github.com/JustBru00/ke2dataexporter-public/wiki/Command-Line-Usage)
