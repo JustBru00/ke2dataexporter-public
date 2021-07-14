@@ -1,4 +1,8 @@
 Instructions/Release Information: 
+Version 1.2.2-RELEASE
+~ Fixed issues with KE2 controller names that contain a colon.
+~ Fixed issues with the command line option for the exported file name.
+
 Version 1.2.1-RELEASE
 + Added --debug() command line argument.
 ~ Fixed issues when controllers cannot be reached.
