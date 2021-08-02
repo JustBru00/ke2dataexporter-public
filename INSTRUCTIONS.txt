@@ -1,4 +1,11 @@
 Instructions/Release Information: 
+Version 1.3-RELEASE
++ Users can now save the current text field settings and load them.
++ Added menu option to restart program with debug logs visible to ease future troubleshooting.
++ Added high, low, and average temperature report generation. Generates an excel file with each days high, low, and average for multiple rooms.
+~ Fixes issue with program being stuck in a unusable state after a failure with download operation.
+~ Moved the location of the temporary files from /KE2_Data_Exporter_Temp/ to /KE2DataExporter/temp/
+
 Version 1.2.2-RELEASE
 ~ Fixed issues with KE2 controller names that contain a colon.
 ~ Fixed issues with the command line option for the exported file name.
