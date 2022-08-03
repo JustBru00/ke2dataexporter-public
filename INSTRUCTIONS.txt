@@ -1,7 +1,7 @@
 Instructions/Release Information: 
 Version 1.3-RELEASE
 + Users can now save the current text field settings and load them.
-+ Added menu option to restart program with debug logs visible to ease future troubleshooting.
++ Added menu option to restart program with debug logs visible to simplifiy future troubleshooting.
 + Added high, low, and average temperature report generation. Generates an excel file with each days high, low, and average for multiple rooms.
 ~ Fixes issue with program being stuck in a unusable state after a failure with download operation.
 ~ Moved the location of the temporary files from /KE2_Data_Exporter_Temp/ to /KE2DataExporter/temp/
@@ -29,15 +29,15 @@ Version 1.0.1-RELEASE
 Version 1.0-RELEASE
 The first fully working version of the program.
 System requirements:
-•	Excel 2010-2016 (May work on newer versions)
-•	Windows 7,8,8.1,10
-•	Java 8 or higher
+â€¢	Excel 2010-2016 (May work on newer versions)
+â€¢	Windows 7,8,8.1,10
+â€¢	Java 8 or higher
 
 Usage:
 Fill the in IP Formula field with one of the following options, then click on the Excel button.
-•	Single IP (1 arg): 192.198.0.1
-•	Consecutive IP (3 args): 192.168.0.X 1 200
-•	Multiple IP (x args): 192.168.0.200 192.168.0.100 192.168.0.201
+â€¢	Single IP (1 arg): 192.198.0.1
+â€¢	Consecutive IP (3 args): 192.168.0.X 1 200
+â€¢	Multiple IP (x args): 192.168.0.200 192.168.0.100 192.168.0.201
 
 Single IP will download a single KE2s data from the provided IP.
 Consecutive IP will download from multiple consecutive KE2s. The X variable will be replaced starting with the second argument, then adding one to that number until the third argument is reached.
