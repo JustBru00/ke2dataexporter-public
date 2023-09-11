@@ -1,4 +1,13 @@
 Instructions/Release Information: 
+Version 1.4-RELEASE
++ Added support for downloading data from KE2 Evaporator Efficiency (KE2 EE) controllers running firmware version 5.
++ Added snowflake logo to program windows and taskbar.
++ Added support for generating a HighLowAverage report from KE2 EE controllers running firmware version 5.
++ Added support for generating a HighLowAverage report from KE2 EE controllers running different firmware versions. This means that a report can contain KE2 EE controllers running firmware 4 and firmware 5.
+~ Rewrote KE2 EE firmware 4 data handling code so that we no longer use a Excel macro for data conversion.
+~ Rewrote the csv to xlsx file format conversion code so that we no longer need a copy of Excel to be installed on the computer.
+~ Fixed error that could appear when attempting to download data from KE2 EE controllers running firmware version 4.1.
+
 Version 1.3-RELEASE
 + Users can now save the current text field settings and load them.
 + Added menu option to restart program with debug logs visible to ease future troubleshooting.
@@ -29,8 +38,7 @@ Version 1.0.1-RELEASE
 Version 1.0-RELEASE
 The first fully working version of the program.
 System requirements:
-•	Excel 2010-2016 (May work on newer versions)
-•	Windows 7,8,8.1,10
+•	Windows 10,11
 •	Java 8 or higher
 
 Usage:
@@ -46,5 +54,5 @@ Multiple IP will download from multiple KE2s.
 The program will download the files to your Downloads folder by default.
 
 Send any questions to Justin Brubaker. justinb@rbrubaker.com
-KE2DataExporter is copyright 2019 Rufus Brubaker Refrigeration.
+KE2DataExporter is copyright 2023 Rufus Brubaker Refrigeration.
 
